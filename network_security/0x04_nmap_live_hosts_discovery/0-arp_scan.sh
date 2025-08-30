@@ -1,2 +1,2 @@
 #!/bin/bash
-nmap -sn -PR --privileged "$1"
+sudo nmap -sn -PR --privileged "$1"
